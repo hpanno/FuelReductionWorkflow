@@ -35,8 +35,11 @@ You will want to copy over the project folder to your local:
   4. Use Xtools in Arc to convert the KML into a SHP; save it here:
   Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\SHP  --> save the data with todays date.
   
-  There are a couple ways you can incorporate this data into the master GDB. 
-  1. Start an Edit session on the 'ProjectPolygons' layer; using the edit cursor highlight the data to be added; right click copy; deselect the data; right click paste into the 'ProjectPolygons' layer; 
+  
+  OR
+  
+  In the search bar in the Arc, typer in 'KML to Layer' to convert this data.
+  1. Start an Edit session on the 'ProjectPolygons' layer; using the edit cursor highlight the data to be added; right click copy; deselect the data; right click paste into the 'ProjectPolygons' layer; the only field inthe attribute table that HAS to be entered it the 'AltID' since that is the field that we are joining this data on; save edits; stop editing.
 
 ###Joining the Google Spreadsheet data to the Project Polygon data in Master Fuel Reduction GDB
   

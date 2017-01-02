@@ -1,0 +1,82 @@
+# Fuel Reduction Data Workflow
+
+This work flow outlines how to:
+  1. Export Google Spreadsheet data to join to the Master Fuel Reduction Database.
+  2. Download Project Polygon Data from Cal Topo and add it to the Master Fuel Reduction Database.
+  3. Join the Google Spreadsheet and Project Polygon data. 
+  4. Export this Updated Data.
+  5. Push updates to the Server.
+  
+
+
+Extra how to:
+  1. Import project Polygon Data into CalTopo.
+
+
+####Project Initiation
+You will want to copy over the project folder to your local:
+<b>Y:\_projects\FuelReductionData</b>  --> This is your workspace. Place all working MXDs and intermitent data here including SHPs, KMLs, or Tables that you may create. The GDB that exists here will be the source for all products we make concerning this data. This is the GDB that you will be making permanent edits to and this is the GDB that must be updated to the server so the most recent data can be shared with others.
+
+###Downloading Google Spreadsheet for joining in Arc
+
+  1. Export the Fuels Reduction Database from Google Spreadsheets by:
+    File > Download As > Comma-separated Values (.csv, current sheet)
+  2. Save that file to the project folder:
+    Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\tables
+  3. Add the current date to the previous table that was located at the path above and click and drag the old table to the Archive Folder. 
+  
+
+###Downloading Project Polygon Data from Cal Topo and adding to Master GDB
+
+  1. Navigate to https://caltopo.com/m/JMHF
+  2. Hover over the 'Export' option at the top left of the page to activate its options. 
+  3. Select 'Download KML File' and save it:
+  Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\KML\CalTopoExports  --> save the data with todays date.
+  4. Use Xtools in Arc to convert the KML into a SHP; save it here:
+  Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\SHP  --> save the data with todays date.
+  
+  There are a couple ways you can incorporate this data into the master GDB. 
+  1. Start an Edit session on the 'ProjectPolygons' layer; using the edit cursor highlight the data to be added; right click copy; deselect the data; right click paste into the 'ProjectPolygons' layer; 
+
+###Joining the Google Spreadsheet data to the Project Polygon data in Master Fuel Reduction GDB
+  
+  1. Open the Fuel Reduction Working mxd:
+    Y:\_projects\FuelReductionData\projects
+    <i>The working MXD that exists here currently is just the one I have already started. If you want to create your own working map, go ahead and do so. Feel free to save it here. </i>
+  2. Since we kept the integrity of the table's name, the path to the previous join is still intact with the data. 
+    If the link to the table appears to be broken, repair the data source, and re-create the join. The ProjectPolygon data and the
+    exported Google Spread sheet doc are joined on the <u>Alt-ID</u> field. 
+   
+   <b><u> Remember</u>: 
+   This join is composed of the table you just downloaded from Google Spreadsheet now located (using the 'Alt-ID' field):
+    Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\tables\CalMapperDatabase - SLU_ProjectPolygons_Export.csv
+    And the 'ProjectPolygons' layer located:
+    Y:\_projects\FuelReductionData\FuelReductionDataWoring\project_data\GDB\FuelReductionMaster.gdb\Projects\ProjectPolygons</b>
+  
+  3. Confirm that the join was successful. Select all records in the Project Polygon layer and export this data to the 'Joined Data'    Feature Dataset in the project GDB:
+  Y:\_projects\FuelReductionData\project_data\GDB\FuelReductionMaster.gdb\JoinedData
+  <b> Make sure you date this exported data with today's date. This ensures everyone using the data that it is indeed the most recent.</b>
+ 
+ 
+ ^^This Exported data with today's date is your final project^^
+  4. FYI: If this data needs to be shared (as in sent in an email to some one requesting the data) with anyone or submitted, export a copy of this data as a zipped shapefile in the 'Data Sent' folder:
+  Y:\_projects\FuelReductionData\project_data\Data_Sent
+  
+###Pushing Edits to Server
+Once you have completed any edits to the Master Fuel reduction GDB it is imperitive that you push your edits to the server. You have not completed this process until you have pushed you edits to the X://.
+
+
+
+
+
+
+###Adding Project Polygon to CalTopo
+  We will be pulling the project polygons that are input to CAL TOPO Fuel Reduction Map to add to the ProjecPolygon layer. 
+  https://caltopo.com/m/JMHF
+  
+  1. Select the 'Map is read-only' link on the left side of the caltopo page. Enter in the appropriate password.
+  2. Import your project polygon using the Import button at the top left of the screen. Import GPX, KML, or KMZ. 
+     Or, add the polygon using the '+Add' feature at the top left of the of the screen. 
+  3. Make sure all data is entered in according to the 'CAL TOPO Fuel Reduction Map' email instructed.
+
+

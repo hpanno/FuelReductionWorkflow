@@ -8,3 +8,6 @@ This work flow outlines how to:
   3. Join the Google Spreadsheet and Project Polygon data.
   4. Export this Updated Data.
   5. Push updates to the Server.
+
+
+Select the 'HowTo' from above to get started. 

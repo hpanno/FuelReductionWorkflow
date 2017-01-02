@@ -77,8 +77,8 @@ ________________________________________________________________________________
   2. Import your project polygon using the Import button at the top left of the screen. Import GPX, KML, or KMZ. 
      Or, add the polygon using the '+Add' feature at the top left of the of the screen. 
   3. Make sure all data is entered in according to the 'CAL TOPO Fuel Reduction Map' email instructed.
+
+
 ________________________________________________________________________________________________________________________
-
-
 
 If you have questions as you work through this process, simply create an issue thru GitHub or email me!

@@ -69,10 +69,17 @@ You will want to copy over the project folder to your local:
 Once you have completed any edits to the Master Fuel reduction GDB it is imperitive that you push your edits to the server. You have not completed this process until you have pushed you edits to the X://.
 
 
+
+###Updating the CartoDB Map
 Give me a shout out if you update the GDB. I will pull the most recent data you created and update the Fuel Reduction Map. Also, feel free to share the link below. If you have any suggestions for improvement with this map please send your ideas my way and I will incorporate! 
 
 
 https://slu.carto.com/viz/e14adad6-d1fe-11e6-b215-0e3a376473ab/public_map
+
+Photos can be incorporated into the project 'pop-up'. Upload your photos to the SLUGIS Flickr account to be imported into cartodb.
+
+
+https://www.flickr.com/photos/slugis3400/albums
 
 ________________________________________________________________________________________________________________________
 ###Adding Project Polygon to CalTopo

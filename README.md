@@ -13,4 +13,5 @@ This work flow outlines how to:
 Select the 'HowTo' from above to get started. 
 
 
-<iframe width="100%" height="520" frameborder="0" src="https://hkpanno.carto.com/viz/b883de4a-bda4-11e6-a62f-0ef7f98ade21/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+Follow the link below to see the Most Recent Fuel Reduction data:
+https://hkpanno.carto.com/viz/b883de4a-bda4-11e6-a62f-0ef7f98ade21/public_map

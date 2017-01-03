@@ -72,7 +72,7 @@ Once you have completed any edits to the Master Fuel reduction GDB it is imperit
 Give me a shout out if you update the GDB. I will pull the most recent data you created and update the Fuel Reduction Map. Also, feel free to share the link below. If you have any suggestions for improvement with this map please send your ideas my way and I will incorporate! 
 
 
-https://hkpanno.carto.com/viz/b883de4a-bda4-11e6-a62f-0ef7f98ade21/public_map
+https://slu.carto.com/viz/e14adad6-d1fe-11e6-b215-0e3a376473ab/public_map
 
 ________________________________________________________________________________________________________________________
 ###Adding Project Polygon to CalTopo

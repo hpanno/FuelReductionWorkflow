@@ -68,6 +68,12 @@ You will want to copy over the project folder to your local:
 ###Pushing Edits to Server
 Once you have completed any edits to the Master Fuel reduction GDB it is imperitive that you push your edits to the server. You have not completed this process until you have pushed you edits to the X://.
 
+
+Give me a shout out if you update the GDB. I will pull the most recent data you created and update the Fuel Reduction Map. Also, feel free to share the link below. If you have any suggestions for improvement with this map please send your ideas my way and I will incorporate! 
+
+
+https://hkpanno.carto.com/viz/b883de4a-bda4-11e6-a62f-0ef7f98ade21/public_map
+
 ________________________________________________________________________________________________________________________
 ###Adding Project Polygon to CalTopo
   We will be pulling the project polygons that are input to CAL TOPO Fuel Reduction Map to add to the ProjecPolygon layer. 

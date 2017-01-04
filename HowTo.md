@@ -76,7 +76,7 @@ Give me a shout out if you update the GDB. I will pull the most recent data you 
 
 https://slu.carto.com/viz/e14adad6-d1fe-11e6-b215-0e3a376473ab/public_map
 
-Photos can be incorporated into the project 'pop-up'. Upload your photos to the SLUGIS Flickr account to be imported into cartodb.
+Photos can be incorporated into the project 'pop-up'. Upload your photos to the SLUGIS Flickr account to be imported into cartodb. Create a brand new album for the project photos you are importing so it is easy to tell which photos go to each project. Flickr has an app available for download that makes this import process easy. Please let me know if you have any questions as to how to download/long on to gain access.
 
 
 https://www.flickr.com/photos/slugis3400/albums

@@ -71,7 +71,7 @@ Once you have completed any edits to the Master Fuel reduction GDB it is imperit
 
 
 ###Updating the CartoDB Map
-Give me a shout out if you update the GDB. I will pull the most recent data you created and update the Fuel Reduction Map. Also, feel free to share the link below. If you have any suggestions for improvement with this map please send your ideas my way and I will incorporate! 
+Give me a shout out if you update the GDB. We will pull the most recent data created and update the Fuel Reduction Map. Also, feel free to share the link below. If you have any suggestions for improvement with this map please send your ideas my way and we will incorporate! 
 
 
 https://slu.carto.com/viz/e14adad6-d1fe-11e6-b215-0e3a376473ab/public_map

@@ -16,4 +16,4 @@ Select the 'HowTo' from above to get started.
 Follow the link below to see the Most Recent Fuel Reduction data:
 
 
-https://slu.carto.com/viz/e14adad6-d1fe-11e6-b215-0e3a376473ab/public_map
+https://slu.carto.com/viz/c01af4fa-d37e-11e6-8d7f-0e233c30368f/public_map

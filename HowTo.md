@@ -14,7 +14,9 @@ Extra how to:
 
 
 ####Project Initiation####
+
 You will want to copy over the project folder to your local:
+
 <b>Y:\_projects\FuelReductionData</b>  --> This is your workspace. Place all working MXDs and intermitent data here including SHPs, KMLs, or Tables that you may create. The GDB that exists here will be the source for all products we make concerning this data. This is the GDB that you will be making permanent edits to and this is the GDB that must be updated to the server so the most recent data can be shared with others.
 
 ###Downloading Google Spreadsheet for joining in Arc###
